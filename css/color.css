@@ -24,10 +24,17 @@ h5{color:#607d8b;}
 h6{color:#78909c;}
 time{color: #B0BEC5;}
 
+header a{color: #263238;}
+header a:hover,
+header a:active,
+header a.active{color: #607D8B;}
 
 article p,
 article ol,
 article ul{color:#192328;}
+
+footer a{color:#e45415;}
+footer a:hover{color:#474747;}
 
 footer p,
 footer ol,
@@ -62,14 +69,6 @@ h2 small a:hover{color: #969696;}
 
 h4 a{color:#888;}
 
-
-header a{color: #263238;}
-header a:hover,
-header a:active,
-header a.active{
-	color: #607D8B;
-}
-
 header li:first-child a{color: #ff7800;}
 header li:first-child a:hover{color: #607D8B;}
 
@@ -77,9 +76,6 @@ main p a{color:#8a8c8e;}
 main p a:hover {color:#474747;}
 
 main p a:active{color: #171409;}
-
-footer a{color:#e45415;}
-footer a:hover{color:#474747;}
 
 h6 a[rel="prev"],
 h6 a[rel="next"]{
