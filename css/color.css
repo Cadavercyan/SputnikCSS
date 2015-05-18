@@ -18,9 +18,13 @@ h3{color:#455a64;}
 h4{color:#546e7a;}
 h5{color:#607d8b;}
 h6{color:#78909c;}
+p{color:#192328;}
+ol{color:#192328;}
+ul{color:#192328;}
 time{color: #B0BEC5;}
 strong, b{color:#192328;}
 blockquote, blockquote p, q{color: #607d8b;}
+mark {background: #FDD835;color: #192328;}
 
 header a{color: #263238;}
 header a:hover,
@@ -28,10 +32,6 @@ header a:active,
 header a.active{color: #607D8B;}
 header li:first-child a{color: #ff7800;}
 header li:first-child a:hover{color: #607D8B;}
-
-article p,
-article ol,
-article ul{color:#192328;}
 
 footer a{color:#e45415;}
 footer a:hover{color:#474747;}
