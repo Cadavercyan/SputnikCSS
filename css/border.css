@@ -21,4 +21,9 @@ main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
 @media screen and (max-width:48rem) {
 	header li{border-bottom:0.08rem solid rgba(0,0,0,0.16);}
 	header li:last-child{border:none;}
+	
+	header li a:hover,
+	header li a:active,
+	header li a.active{
+	border:none;
 	}
