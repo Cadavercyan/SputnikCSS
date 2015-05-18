@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+/*
+	SputnikCSS
+	layouts.css
+*/
+
 nav,
 section,
 footer{
@@ -9,9 +16,7 @@ section,
 footer{padding:1.984em 0;}
 
 nav menu,
-article{
+article,
+footer menu{
 	padding:0 5.55556%;
 }
-
-
-footer p{padding:0 5.55556%;}
