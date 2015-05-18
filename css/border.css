@@ -5,4 +5,9 @@
 	border.css
 */
 
+section{border-top:0.08rem solid #f1f1f1;}
+
 .articles menu li {border-top: 0.1rem dotted #cfd8dc;}
+
+main address a:hover,
+h4 a:hover{border-bottom:0.06em solid #607D8B;}
