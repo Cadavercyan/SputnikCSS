@@ -13,7 +13,7 @@ body {
 
 header{background:#fafafa;}
 aside{background: #0f191e;}
-section{background:#fffefa; border-top:0.08rem solid #f1f1f1;}
+section{background:#fffefa;}
 
 @media screen and (max-width:48rem) {header menu{background:#ffb800;}}
 
@@ -53,10 +53,6 @@ footer a:hover,
 .paginator p a:hover{
 	color:#0288d1;
 }
-
-
-main address a:hover,
-h4 a:hover{border-bottom:0.06em solid #607D8B;}
 
 h2 a:active,
 h4 a:active,
