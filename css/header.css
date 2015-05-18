@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*
+	SputnikCSS
+	header.css
+*/
+
 header menu{
 		display: -webkit-flex;
 		display: -moz-flexbox;
@@ -24,14 +29,10 @@ header input{display:none;}
 
 @media screen and (max-width:48rem) {
 	header label {display:block;}
-	header menu{
-		background:#ffb400;
-		display: none;
-	}
+	header menu{display: none;}
 
 	header li{padding: 0.496em 0px; border-bottom:0.08rem solid rgba(0,0,0,0.16);}
 	header li:last-child{border:none;}
-
 
 	header li a,
 	header li:first-child a,
@@ -60,13 +61,9 @@ header label:focus{
 	box-shadow: none;
 }
 
-	header input:checked ~ label{
+header input:checked ~ label{
 	background-image: url("../img/back-icon.svg");
 	background-color: #ffc800;
 }
 
-@media screen and (max-width:48rem) {
-	header input:checked ~ nav menu{
-		display: block;
-	}
-}
+@media screen and (max-width:48rem) {header input:checked ~ nav menu{display: block;}}
