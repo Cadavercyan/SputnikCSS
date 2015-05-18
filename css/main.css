@@ -1,13 +1,15 @@
+@charset "UTF-8";
+
 /*
-	Sputnik.css/1.1
-	author:Marcus Cadavercyan;
-	email:marcus@cadavercyan.com
+	SputnikCSS
+	main.css
 */
 
 @import url("reset.css") screen;
 @import url("fonts.css") screen;
 @import url("typography.css") screen;
 @import url("color.css") screen;
+@import url("border.css") screen;
 
 /*
 @import url("animation.css") screen;
