@@ -11,3 +11,9 @@ section{border-top:0.08rem solid #f1f1f1;}
 
 main address a:hover,
 h4 a:hover{border-bottom:0.06em solid #607D8B;}
+
+main p a:hover {border-bottom-color: #1976d2;}
+
+main p a:active{border-bottom-color: #0d47a1;}
+
+main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
