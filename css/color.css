@@ -33,6 +33,9 @@ header a.active{color: #607D8B;}
 header li:first-child a{color: #ff7800;}
 header li:first-child a:hover{color: #607D8B;}
 
+header label, header label:focus{background-color: #252525;}
+header input:checked ~ label{background-color: #ffc800;}
+
 footer a{color:#e45415;}
 footer a:hover{color:#474747;}
 footer p,
