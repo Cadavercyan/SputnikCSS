@@ -39,7 +39,11 @@ footer p,
 footer ol,
 footer ul{color:#8a8c8e;}
 
-main address a,
+main p a{color:#8a8c8e;}
+main p a:hover {color:#474747;}
+main p a:active{color: #171409;}
+main address a{color: #03a9f4;}
+
 h2 a,
 h6 a{color: #03a9f4;}
 
@@ -59,13 +63,6 @@ h2 small a{color: #263238;}
 h2 small a:hover{color: #969696;}
 
 h4 a{color:#888;}
-
-
-
-main p a{color:#8a8c8e;}
-main p a:hover {color:#474747;}
-
-main p a:active{color: #171409;}
 
 h6 a[rel="prev"],
 h6 a[rel="next"]{
