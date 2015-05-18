@@ -75,17 +75,9 @@ header li:first-child a{color: #ff7800;}
 header li:first-child a:hover{color: #607D8B;}
 
 main p a{color:#8a8c8e;}
-main p a:hover {
-	color:#474747;
-	border-bottom-color: #1976d2;
-}
+main p a:hover {color:#474747;}
 
-main p a:active{
-	border-bottom-color: #0d47a1;
-	color: #171409;
-}
-
-main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
+main p a:active{color: #171409;}
 
 footer a{color:#e45415;}
 footer a:hover{color:#474747;}
