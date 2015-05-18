@@ -7,20 +7,17 @@
 
 section{border-top:0.08rem solid #f1f1f1;}
 
-.articles menu li {border-top: 0.1rem dotted #cfd8dc;}
-
-main address a:hover,
-h4 a:hover{border-bottom:0.06em solid #607D8B;}
+main address a:hover, h4 a:hover{border-bottom:0.06em solid #607D8B;}
 
 main p a:hover {border-bottom-color: #1976d2;}
-
 main p a:active{border-bottom-color: #0d47a1;}
-
 main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
 
 @media screen and (max-width:48rem) {
 	header li{border-bottom:0.08rem solid rgba(0,0,0,0.16);}
 	header li:last-child{border:none;}
 }
+
+.articles menu li {border-top: 0.1rem dotted #cfd8dc;}
 
 .latter menu li{border-top:0.24rem solid #ffd200;}
