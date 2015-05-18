@@ -24,8 +24,7 @@ header li a{margin:0 0.48rem;}
 header li:first-child a{margin:0 0.48rem 0 0;}
 header li:last-child a{margin:0 0 0 0.48rem;}
 
-header label ,
-header input{display:none;}
+header label, header input{display:none;}
 
 @media screen and (max-width:48rem) {
 	header label {display:block;}
@@ -33,14 +32,10 @@ header input{display:none;}
 
 	header li{padding: 0.496em 0px;}
 	
+	header li a{display:block;}
 	header li a,
 	header li:first-child a,
-	header li:last-child a{
-		margin:0;
-	}
-
-	header li a{display:block;}
-	}
+	header li:last-child a{margin:0;}
 }
 
 header label,
