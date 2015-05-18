@@ -104,11 +104,9 @@ q{
 	font-size: 1em;
 	line-height: 1.61803398875em;
 	margin:0 0 1.61803398875em 0;
+	font-style: italic;
+	quotes: "«" "»" "“" "”" "[" "]";
 }
-
-q{font-style: italic;}
-
-q {quotes: "«" "»" "“" "”" "[" "]";}
 
 time{
 	font-size: 0.744em;
