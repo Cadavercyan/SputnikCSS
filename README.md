@@ -1,3 +1,3 @@
 # SputnikCSS
 
-CSS Framework for responsive website. We will update README.md ASAP.
+CSS Framework for responsive websites. We will update README.md ASAP.
