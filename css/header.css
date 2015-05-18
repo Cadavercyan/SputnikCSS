@@ -41,10 +41,6 @@ header input{display:none;}
 	}
 
 	header li a{display:block;}
-	header li a:hover,
-	header li a:active,
-	header li a.active{
-	border:none;
 	}
 }
 
