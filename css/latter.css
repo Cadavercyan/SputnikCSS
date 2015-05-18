@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+/*
+	SputnikCSS
+	latter.css
+*/
+
 .latter menu{
 		display: -webkit-flex;
 		display: -moz-flexbox;
