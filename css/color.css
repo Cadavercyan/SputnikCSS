@@ -5,11 +5,7 @@
 	color.css
 */
 
-html,
-body{
-    background: #f2f2f2;
-}
-
+html, body{background: #f2f2f2;}
 header{background:#fafafa;}
 aside{background: #0f191e;}
 section{background:#fffefa;}
@@ -23,11 +19,14 @@ h4{color:#546e7a;}
 h5{color:#607d8b;}
 h6{color:#78909c;}
 time{color: #B0BEC5;}
+strong, b{color:#192328;}
 
 header a{color: #263238;}
 header a:hover,
 header a:active,
 header a.active{color: #607D8B;}
+header li:first-child a{color: #ff7800;}
+header li:first-child a:hover{color: #607D8B;}
 
 article p,
 article ol,
@@ -35,7 +34,6 @@ article ul{color:#192328;}
 
 footer a{color:#e45415;}
 footer a:hover{color:#474747;}
-
 footer p,
 footer ol,
 footer ul{color:#8a8c8e;}
@@ -45,8 +43,6 @@ blockquote p,
 q{
 	color: #607d8b;
 }
-
-strong, b{color:#000;}
 
 main address a,
 h2 a,
@@ -69,8 +65,7 @@ h2 small a:hover{color: #969696;}
 
 h4 a{color:#888;}
 
-header li:first-child a{color: #ff7800;}
-header li:first-child a:hover{color: #607D8B;}
+
 
 main p a{color:#8a8c8e;}
 main p a:hover {color:#474747;}
