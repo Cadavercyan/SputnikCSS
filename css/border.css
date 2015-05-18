@@ -24,8 +24,7 @@ main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
 	
 	header li a:hover,
 	header li a:active,
-	header li a.active{
-	border:none;
-	}
+	header li a.active{border:none;}
+}
 
 .latter menu li{border-top:0.24rem solid #ffd200;}
