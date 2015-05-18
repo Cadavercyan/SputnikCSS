@@ -4,3 +4,5 @@
 	SputnikCSS
 	border.css
 */
+
+.articles menu li {border-top: 0.1rem dotted #cfd8dc;}
