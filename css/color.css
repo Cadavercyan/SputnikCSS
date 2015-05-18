@@ -20,6 +20,7 @@ h5{color:#607d8b;}
 h6{color:#78909c;}
 time{color: #B0BEC5;}
 strong, b{color:#192328;}
+blockquote, blockquote p, q{color: #607d8b;}
 
 header a{color: #263238;}
 header a:hover,
@@ -37,12 +38,6 @@ footer a:hover{color:#474747;}
 footer p,
 footer ol,
 footer ul{color:#8a8c8e;}
-
-blockquote,
-blockquote p,
-q{
-	color: #607d8b;
-}
 
 main address a,
 h2 a,
