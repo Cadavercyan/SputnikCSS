@@ -1,0 +1,32 @@
+.post img{border-radius:0.12rem;}
+
+.post h5 a{
+	border-radius:0.12rem;
+	padding:0 0.64rem;
+}
+
+.post h5 a{margin:0 0.32rem 0 0; white-space:nowrap;}
+.post h5 a:last-child{margin:none;}
+
+#topbutton{
+	width:3.6rem;
+	height:3.6rem;
+	position: fixed;
+z-index:10;
+	right: 1.2rem;
+	bottom: 1.2rem;
+	background: url("../img/top-icon.svg") no-repeat scroll 50% 50% / auto 64% rgba(0,0,0,0.64);
+	border-radius: 0.12rem;
+	display: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width:48rem) {
+	#topbutton{
+		right:5.55556%;
+	}
+}
+
+#topbutton.active{
+	display: block;
+}

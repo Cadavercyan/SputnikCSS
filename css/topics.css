@@ -1,0 +1,10 @@
+.topics h3 a:after{
+	content: "\00a0\2192";
+}
+
+.topics h3 a{
+	border-radius:0.12rem;
+	padding:0 0.64rem;
+}
+
+.topics h3 a{white-space:nowrap;}

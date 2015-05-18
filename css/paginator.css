@@ -1,0 +1,16 @@
+.paginator h6 a[rel="prev"],
+.paginator h6 a[rel="next"]{
+	border-radius:0.2rem;
+	margin:0 0.32rem 0 0;
+	padding:0 0.64rem;
+}
+
+.paginator h6 a:last-child{margin:none;}
+
+.paginator h6 a[rel="prev"]:before{
+	content: "\2190\00a0";
+}
+
+.paginator h6 a[rel="next"]:after{
+	content: "\00a0\2192";
+}

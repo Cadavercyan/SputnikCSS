@@ -1,0 +1,17 @@
+nav,
+section,
+footer{
+	max-width: 64rem;
+	margin: 0 auto;
+}
+
+section,
+footer{padding:1.984em 0;}
+
+nav menu,
+article{
+	padding:0 5.55556%;
+}
+
+
+footer p{padding:0 5.55556%;}

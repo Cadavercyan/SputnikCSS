@@ -1,0 +1,11 @@
+.articles menu li {border-top: 0.1rem dotted #cfd8dc;}
+
+.articles menu li:first-child{border:none;}
+
+.articles h5 a{
+	border-radius:0.12rem;
+	padding:0 0.64rem;
+}
+
+.articles h5 a{margin:0 0.32rem 0 0; white-space:nowrap;}
+.articles h5 a:last-child{margin:none;}

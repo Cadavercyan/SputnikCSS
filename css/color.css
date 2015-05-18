@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+::selection {
+    background: #FFC300;
+    color: #171409;
+}
+
+*::-moz-selection {
+    background:#FFC300;
+    color: #171409;
+}
+
+main a{
+	transition: color 300ms ease-out 0s;
+}
+
+a:hover{
+	transition: background 300ms ease-out 0s;
+}
+
+html,
+body {
+    background: #F2F2F2 ;
+}
+
+header{background:#fff;}
+aside{background: #0f191e;}
+section{background:#fffefa ;}
+
+h1{color:#263238;}
+h2{color:#37474f;}
+h3{color:#455a64;}
+h4{color:#546e7a;}
+h5{color:#607d8b;}
+h6{color:#78909c;}
+time{color: #B0BEC5;}
+
+
+article p,
+article ol,
+article ul{color:#192328;}
+
+footer p,
+footer ol,
+footer ul{color:#8a8c8e;}
+
+blockquote,
+blockquote p,
+q{
+	color: #607d8b;
+}
+
+strong, b{color:#000;}
+
+main address a,
+h2 a,
+h6 a{color: #03a9f4;}
+
+h2 a:hover,
+h4 a:hover,
+h6 a:hover,
+footer a:hover,
+.paginator p a:hover{
+	color:#0288d1;
+}
+
+
+main address a:hover,
+h4 a:hover{border-bottom:0.06em solid #607D8B;}
+
+h2 a:active,
+h4 a:active,
+h6 a:active{color:#0277bd;}
+
+h2 small a{color: #263238;}
+h2 small a:hover{color: #969696;}
+
+h4 a{color:#888;}
+
+
+header a{color: #1e2832;}
+header a:hover,
+header a:active,
+header a.active{
+	color: #fffefa;
+}
+
+header li:first-child a{color: #ff6f00;}
+header li:first-child a:hover{color: #fffefa;}
+
+main p a{color:#8a8c8e;}
+main p a:hover {
+	color:#474747;
+	border-bottom-color: #1976d2;
+}
+
+main p a:active{
+	border-bottom-color: #0d47a1;
+	color: #171409;
+}
+
+main p a[href*="#"]{border-bottom:0.08em dotted #64b5f6;}
+
+footer a{color:#e45415;}
+footer a:hover{color:#474747;}
+
+h6 a[rel="prev"],
+h6 a[rel="next"]{
+	background:#f5f5f5;
+}
+
+h6 a[rel="prev"]:hover,
+h6 a[rel="next"]:hover{
+	background:#eee;
+}
+
+h3 a, h5 a{color:#37474f; }
+h3 a, h5 a:hover{color:#263238; }
+
+.paginator p a{color: #b0bec5;}
+.paginator p a.active{color:#37474f;}
+
+/* Социальная */
+main a[href*="%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F"] {background: #ffca28;}
+main a[href*="%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F"]:hover {background: #ffb300;}
+
+/* Детская */
+main a[href*="%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F"] {background: #81d4fa;}
+main a[href*="%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F"]:hover {background: #4fc3f7;}
+
+/* Психоанализ */
+main a[href*="%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7"] {background: #ff8a65;}
+main a[href*="%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7"]:hover {background: #ff7043;}
+
+/* Клинический */
+main a[href*="%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9"] {background: #81C784;}
+main a[href*="%D0%9A%D0%BB%D0%B8%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9"]:hover {background: #66BB6A;}
+
+/* Аналитическая*/
+main a[href*="%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F"] {background: #80deea;}
+main a[href*="%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F"]:hover {background: #4dd0e1;}
+
+/* Гештальт*/
+main a[href*="%D0%93%D0%B5%D1%88%D1%82%D0%B0%D0%BB%D1%8C%D1%82"] {background: #f8bbd0;}
+main a[href*="%D0%93%D0%B5%D1%88%D1%82%D0%B0%D0%BB%D1%8C%D1%82"]:hover {background: #f48fb1;}
+
+/* Общая*/
+main a[href*="%D0%9E%D0%B1%D1%89%D0%B0%D1%8F"] {background: #ce93d8;}
+main a[href*="%D0%9E%D0%B1%D1%89%D0%B0%D1%8F"]:hover {background: #ba68c8;}
+
+/* Этология*/
+main a[href*="%D0%AD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F"] {background: #dce775;}
+main a[href*="%D0%AD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F"]:hover {background: #cddc39;}
+
+/* Неофрейдизм*/
+main a[href*="%D0%9D%D0%B5%D0%BE%D1%84%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%B7%D0%BC"] {background: #FFA726;}
+main a[href*="%D0%9D%D0%B5%D0%BE%D1%84%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%B7%D0%BC"]:hover {background: #FF9800;}
+
+/* Фрейдомарксизм*/
+main a[href*="%D0%A4%D1%80%D0%B5%D0%B9%D0%B4%D0%BE%D0%BC%D0%B0%D1%80%D0%BA%D1%81%D0%B8%D0%B7%D0%BC"] {background: #FF7043;}
+main a[href*="%D0%A4%D1%80%D0%B5%D0%B9%D0%B4%D0%BE%D0%BC%D0%B0%D1%80%D0%BA%D1%81%D0%B8%D0%B7%D0%BC"]:hover {background: #FF5722;}
+
+/* Русская*/
+main a[href*="%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F"] {background: #2196f3;}
+main a[href*="%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F"]:hover {background: #1976d2;}
+
+
+
+.latter h3 a{color: #004245;}
+.latter h3 a:hover {color: #faa000;}

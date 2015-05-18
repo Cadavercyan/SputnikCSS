@@ -1,0 +1,60 @@
+
+
+.monitor figure{
+	max-width:32rem;
+
+	position:relative;
+	margin:0 auto;
+}
+
+.monitor img{
+	opacity: 0;
+	margin:0 auto;
+width:100%;
+height:auto;
+}
+
+
+.monitor img:nth-child(1){
+	animation: slideShow 16s infinite;
+		-webkit-animation: slideShow  16s infinite;	
+}
+.monitor img:nth-child(2){
+	position:absolute;
+top:0;
+	animation: slideShow 16s 4s infinite;
+		-webkit-animation: slideShow  16s  4s infinite;	
+}
+.monitor img:nth-child(3){
+	position:absolute;
+top:0;
+	animation: slideShow 16s 8s infinite;
+		-webkit-animation: slideShow  16s 8s infinite;	
+}
+.monitor img:nth-child(4){
+	position:absolute;
+top:0;
+	animation: slideShow 16s 12s infinite;
+		-webkit-animation: slideShow  16s 12s infinite;	
+}
+
+@-webkit-keyframes slideShow{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+
+@keyframes slideShow{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
+
+
+
+
+
