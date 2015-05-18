@@ -1,6 +1,11 @@
-.topics h3 a:after{
-	content: "\00a0\2192";
-}
+@charset "UTF-8";
+
+/*
+	SputnikCSS
+	topics.css
+*/
+
+.topics h3 a:after{content: "\00a0\2192";}
 
 .topics h3 a{
 	border-radius:0.12rem;
