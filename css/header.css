@@ -43,12 +43,8 @@ header label:focus{
 	width: 100%;
 	height: 3.2rem;
 	border-radius: 0;
-	border: none;
-	outline: none;
 	background: url("../img/menu-icon.svg") no-repeat scroll 0.48rem 50% / auto 1.2em #252525;
 	transition: background-color .4s;
-	outline: 0;
-	box-shadow: none;
 }
 
 header input:checked ~ label{
