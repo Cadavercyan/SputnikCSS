@@ -77,6 +77,9 @@ h6 a[rel="next"]:hover{
 h3 a, h5 a{color:#37474f; }
 h3 a, h5 a:hover{color:#263238; }
 
+.topics h3 a{background: #ffca28;}
+.topics h3 a{background: #ffb300;}
+
 .paginator p a{color: #b0bec5;}
 .paginator p a.active{color:#37474f;}
 
