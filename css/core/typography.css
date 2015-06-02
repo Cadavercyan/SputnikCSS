@@ -1,74 +1,78 @@
 @charset "UTF-8";
 
 /*
-	SputnikCSS
-	typography.css: 1.0
+    SputnikCSS
+    typography.css: 1.0
 */
 
 body{
-	font-size: 1.24em;
-	line-height: 2em;
+    font-size: 1.24em;
+    line-height: 2em;
 }
 
 header{
-	font-size: 1.488rem;
-	line-height: 1.488rem;
-	letter-spacing: -0.024rem;
-	font-weight:400;
+    font-size: 1.488rem;
+    line-height: 1.488rem;
+    letter-spacing: -0.024rem;
+    font-weight:400;
 }
 
 footer{
-	font-size: 1rem;
-	line-height: 1.61803398875rem;
-	text-align:center;
+    font-size: 1rem;
+    line-height: 1.61803398875rem;
+    text-align:center;
 }
 
 h1{
-	font-size: 1.984em;
-	line-height: 1.216em;
-	margin:0 0 1.984em 0;
-	letter-spacing: -0.024em;
+    font-size: 1.984em;
+    line-height: 1.216em;
+    margin:0 0 1.984em 0;
+    letter-spacing: -0.024em;
 }
 
 h2{
-	font-size: 1.488em;
-	line-height: 1.488em;
-	margin:0 0 0.912em 0;
-	font-weight: normal;
-	letter-spacing: -0.024em;
+    font-size: 1.488em;
+    line-height: 1.488em;
+    margin:0 0 0.912em 0;
+    font-weight: normal;
+    letter-spacing: -0.024em;
 }
 
 h3,
 h4,
 h5,
 h6{
-	font-size: 0.992em;
-	line-height: 1.6em;
-	margin:0 0 0.992em 0;
-	font-weight: 400;
+    font-size: 0.992em;
+    line-height: 1.6em;
+    margin:0 0 0.992em 0;
+    font-weight: 400;
 }
 
 p,
 ol,
 ul,
 blockquote,
-figure{
-	font-size: 0.992em;
-	line-height: 1.6em;
-	margin:0 0 0.992em 0;
+figure,
+input,
+textarea,
+label,
+button{
+    font-size: 0.992em;
+    line-height: 1.6em;
+    margin:0 0 0.992em 0;
 }
 
 menu{
-	font-size: 0.992em;
-	line-height: 1.6em;
+    font-size: 0.992em;
+    line-height: 1.6em;
 }
 
 menu li {padding:0.608em 0;}
 
 ol,
 ul{
-	list-style-position: outside;
-	margin-left: 0.9em;
+    list-style-position: outside;
+    margin-left: 0.9em;
 }
 
 ol{list-style-type: decimal;}
@@ -79,61 +83,62 @@ ul li:before {content: "\2013\2004"; margin-left: -0.9em;}
 ul li:after {content: ";";}
 ul li:last-child:after {content: ".";}
 
+label:after {content: ":";}
 cite{
-	font-size: 1em;
-	line-height: 1.61803398875em;
-	margin:0 0 1.61803398875em 0;
+    font-size: 1em;
+    line-height: 1.61803398875em;
+    margin:0 0 1.61803398875em 0;
 }
 
 cite:before {content: "\2013\00A0";}
 
 address{
-	font-size: 1em;
-	line-height: 1.61803398875em;
-	margin:0 0 1em 0;
+    font-size: 1em;
+    line-height: 1.61803398875em;
+    margin:0 0 1em 0;
 }
 
 address:before {content: "\2013\00A0";}
 
 blockquote{
-	border-left: 0.24rem solid  #b0bec5;
-	padding:0 0 0 0.992em
+    border-left: 0.24rem solid  #b0bec5;
+    padding:0 0 0 0.992em
 }
 
 q{
-	font-size: 1em;
-	line-height: 1.61803398875em;
-	margin:0 0 1.61803398875em 0;
-	font-style: italic;
-	quotes: "«" "»" "“" "”" "[" "]";
+    font-size: 1em;
+    line-height: 1.61803398875em;
+    margin:0 0 1.61803398875em 0;
+    font-style: italic;
+    quotes: "«" "»" "“" "”" "[" "]";
 }
 
 time{
-	font-size: 0.744em;
-	line-height: 1.2em;
-	margin:0 0 0.744em 0;
+    font-size: 0.744em;
+    line-height: 1.2em;
+    margin:0 0 0.744em 0;
 }
 
 figcaption{
-	font-size: 1em;
-	font-style: italic;
-	line-height: 1.61803398875em;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.61803398875em;
 }
 
 sub, sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sup {top: -0.5em;}
 sub {bottom: -0.25em;}
 
 pre {
-	white-space: pre;
-	white-space: pre-wrap;
-	word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 strong, b{font-weight: 800;}
