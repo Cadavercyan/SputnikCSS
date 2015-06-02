@@ -8,8 +8,8 @@
 @import url("reset.css") screen;
 @import url("fonts.css") screen;
 @import url("typography.css") screen;
-@import url("color.css") screen;
-@import url("border.css") screen;
+@import url("colors.css") screen;
+@import url("borders.css") screen;
 
 /*
 @import url("animation.css") screen;
