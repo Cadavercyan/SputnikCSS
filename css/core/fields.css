@@ -47,7 +47,7 @@ input:hover, textarea:hover{border-color: #b0bec5;}
  
 input:focus, textarea:focus{border-color: #90a4ae;} 
    
-label {
+label{
     display: block;
     color: #90a4ae; 
 } 
