@@ -1,47 +1,47 @@
 @charset "UTF-8";
 
 /*
-	SputnikCSS
-	fonts.css: 1.0
+    SputnikCSS
+    fonts.css: 1.0
 */
 
 main h1, main p{
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	-o-hyphens: auto;
-	hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
 
-	hyphens: manual;
+    hyphens: manual;
 }
 
 body {
-	-webkit-font-smoothing: subpixel-antialiased !important;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    visible;
-	-ms-backface-visibility:     hidden;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    visible;
+    -ms-backface-visibility:     hidden;
 }
 
 @font-face {
-	font-family: "PT Serif Regular";
-	font-style: normal;
-	font-weight: normal;
-	src: url("../fonts/PTSerifRegular.eot?") format("embedded-opentype"),
-	url("../fonts/PTSerifRegular.woff") format("woff"),
-	url("../fonts/PTSerifRegular.otf") format("opentype"),
-	url("../fonts/PTSerifRegular.ttf") format("truetype"),
-	url("../fonts/PTSerifRegular.svg") format("svg");
+    font-family: "PT Serif Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/PTSerifRegular.eot?") format("embedded-opentype"),
+    url("../fonts/PTSerifRegular.woff") format("woff"),
+    url("../fonts/PTSerifRegular.otf") format("opentype"),
+    url("../fonts/PTSerifRegular.ttf") format("truetype"),
+    url("../fonts/PTSerifRegular.svg") format("svg");
 }
 
 @font-face {
-	font-family: "PT Sans Regular";
-	font-style: normal;
-	font-weight: normal;
-	src: url("../fonts/PTSansRegular.eot?") format("embedded-opentype"),
-	url("../fonts/PTSansRegular.woff") format("woff"),
-	url("../fonts/PTSansRegular.otf") format("opentype"),
-	url("../fonts/PTSansRegular.ttf") format("truetype"),
-	url("../fonts/PTSansRegular.svg") format("svg");
+    font-family: "PT Sans Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/PTSansRegular.eot?") format("embedded-opentype"),
+    url("../fonts/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSansRegular.otf") format("opentype"),
+    url("../fonts/PTSansRegular.ttf") format("truetype"),
+    url("../fonts/PTSansRegular.svg") format("svg");
 }
 
 body{font-family: "PT Serif Regular","21_Cent", pt_serif, georgia, Cambria, "Times New Roman", Times, serif;}
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6{
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
 }
 
 time{font-family: "PT Sans Regular";}
@@ -62,5 +62,11 @@ cite{font-family: "PT Sans Regular";}
 
 header,
 footer{
-	font-family: "PT Sans Regular";
+    font-family: "PT Sans Regular";
+}
+
+input,
+textarea,
+button{
+    font-family: "PT Sans Regular";
 }
