@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+	SputnikCSS
+	colors.css: epub 1.0
+*/
+
+html, body{background: #f2f2f2;}
+aside{background:#233C46 ;}
+section{background:#fffefa;}
+
+body[rel="cover"],
+body[rel="cover"] header,
+body[rel="cover"] aside{background: #DCDCE1;}
+
+body[rel="annotation"],
+body[rel="annotation"] header,
+body[rel="annotation"] aside,
+body[rel="annotation"] section{background: #fff;}
+
+@media screen and (max-width:48rem) {header menu{background:#ffb800;}}
+
+h1{color:#263238;}
+body[rel="cover"] h1 b,body[rel="cover"] h1 small{color:#009BDC;}
+
+h2{color:#37474f;}
+header h2{color:#009bdc;}
+h3{color:#455a64;}
+h4{color:#546e7a;}
+h5{color:#607d8b;}
+h6{color:#78909c;}
+p{color:#192328;}
+ol{color:#192328;}
+ul{color:#192328;}
+time{color: #B0BEC5;}
+strong, b{color:#192328;}
+blockquote, blockquote p, q{color: #607d8b;}
+mark {background: #FDD835;color: #192328;}
+
+footer p,
+footer ol,
+footer ul{color:#8a8c8e;}
+
+body[rel="annotation"] time{color:#009BDC;}
+body[rel="annotation"] h2 b,
+body[rel="annotation"] h2 small{color:#009BDC;}
+
+
+::selection {
+	background: #FFC300;
+	color: #171409;
+}
+
+*::-moz-selection {
+	background:#FFC300;
+	color: #171409;
+}
