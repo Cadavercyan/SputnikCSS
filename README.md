@@ -1,3 +1,3 @@
 # SputnikCSS
 
-Typographic module framework for responsive websites and modern ePub.
+Semantic page typography network kit.
