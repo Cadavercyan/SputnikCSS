@@ -1,1 +1,69 @@
+input,
+textarea,
+button{
+    border-radius: 0.12rem;
+}
 
+input{height: 2.4rem;}
+
+input,
+textarea{
+    padding: 0.16em 0.32em;
+    box-sizing: border-box;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;
+}
+
+button,
+input[type="button"],
+input[type="submit"]{
+    padding: 0.16em 0.64em;
+}
+
+input[type="text"],
+input[type="password"],
+textarea{ 
+    border: solid 0.08rem #cfd8dc;
+    outline: 0; 
+    background: #fff;
+    color:#37474f;
+    }
+
+input[type="text"],
+input[type="password"]{
+    display: block;
+    max-width: 24rem;
+    width: 100%; 
+}
+   
+textarea{
+    resize:vertical;
+    display: block;
+    width: 100%;
+    min-height: 16rem; 
+} 
+   
+input:hover, textarea:hover{border-color: #b0bec5;}
+ 
+input:focus, textarea:focus{border-color: #90a4ae;} 
+   
+label {
+    display: block;
+    color: #90a4ae; 
+} 
+   
+button,
+input[type="button"],
+input[type="submit"]{
+    height: auto;
+    width: auto;
+    border: 0;
+    background: #42a5f5;
+    color: #FFFFFF;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover{
+    background: #1976d2;
+}
