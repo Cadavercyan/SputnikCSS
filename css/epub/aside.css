@@ -1,24 +1,25 @@
 @charset "UTF-8";
 
 /*
-  SputnikCSS
-  aside.css: epub 1.0
+	SputnikCSS
+	aside.css: epub 1.0
 */
 
 aside figure{
-  max-width:64rem;
-  margin:0 auto;
+	max-width:64rem;
+	margin:0 auto;
 }
 
 body[rel="cover"] aside figure{max-width:24rem;}
 
 aside img{
-  width:100%;
-  height:auto;
+	width:100%;
+	height:auto;
 }
 
 body[rel="annotation"] aside img{
-  width: 4.8rem;
-  border-radius: 0.24em;
-  margin:0 5.55556%;
+	width: 4.8rem;
+	border-radius: 0.24em;
+	margin:0 5.55556%;
 }
+
