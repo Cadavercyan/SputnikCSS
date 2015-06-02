@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+  SputnikCSS
+  layouts.css: epub 1.0
+*/
+
+html{height: 100%;}
+body{
+	padding:1.984em 0 0 0;
+	min-height: 100%;
+	box-sizing:padding-box;
+	-moz-box-sizing:padding-box;
+	-webkit-box-sizing:padding-box;
+}
+
+nav,
+section,
+footer{
+	max-width: 64rem;
+	margin: 0 auto;
+}
+
+section,
+footer{
+	padding:1.984em 0;
+}
+
+nav h1,
+article,
+footer menu{
+	padding:0 5.55556%;
+}
