@@ -1,1 +1,138 @@
+@charset "UTF-8";
 
+/*
+	SputnikCSS
+	animation.css: epub 1.0
+*/
+
+
+/* pulse */
+body[rel="cover"] figure img{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.96);
+		opacity: 0.64;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.96);
+		opacity: 0.64;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.96);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.96);
+		opacity: 0.7;	
+	}			
+}
+
+/* slideDown */
+body[rel="annotation"] aside,
+body[rel="chapter"] header{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 0.64s;	
+	-webkit-animation-duration: 0.64s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {transform: translateY(-100%);}
+			
+	100% {transform: translateY(0%);}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {-webkit-transform: translateY(-100%);}
+			
+	100% {-webkit-transform: translateY(0%);}	
+}
+
+/* slideUp */
+body[rel="annotation"] main{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;	
+
+	animation-duration: 0.64s;	
+	-webkit-animation-duration: 0.64s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {transform: translateY(100%);}
+
+	100% {transform: translateY(0%);}	
+}
+
+@-webkit-keyframes slideUp {
+	0% {-webkit-transform: translateY(100%);}
+
+	100% {-webkit-transform: translateY(0%);}	
+}
+
+/* fadeIn */
+body[rel="chapter"] aside{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 0.48s;	
+	-webkit-animation-duration: 0.48s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
