@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*
+    SputnikCSS
+    tags.css: 1.0
+*/
+
+[rel="tags"] a{
+	border-radius:0.12rem;
+	padding:0 0.64rem;
+	margin:0 0.32rem 0 0;
+	white-space:nowrap;
+}
+
+[rel="tags"] a:last-child{margin:none;}
